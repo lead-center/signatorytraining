@@ -1,0 +1,11 @@
+/Users/harristhai/signatory-training/target/debug/deps/serde_wasm_bindgen-25ccb732d3c97ed0.rmeta: /Users/harristhai/.cargo/registry/src/github.com-1ecc6299db9ec823/serde-wasm-bindgen-0.4.5/src/lib.rs /Users/harristhai/.cargo/registry/src/github.com-1ecc6299db9ec823/serde-wasm-bindgen-0.4.5/src/de.rs /Users/harristhai/.cargo/registry/src/github.com-1ecc6299db9ec823/serde-wasm-bindgen-0.4.5/src/error.rs /Users/harristhai/.cargo/registry/src/github.com-1ecc6299db9ec823/serde-wasm-bindgen-0.4.5/src/ser.rs /Users/harristhai/.cargo/registry/src/github.com-1ecc6299db9ec823/serde-wasm-bindgen-0.4.5/src/../README.md
+
+/Users/harristhai/signatory-training/target/debug/deps/libserde_wasm_bindgen-25ccb732d3c97ed0.rlib: /Users/harristhai/.cargo/registry/src/github.com-1ecc6299db9ec823/serde-wasm-bindgen-0.4.5/src/lib.rs /Users/harristhai/.cargo/registry/src/github.com-1ecc6299db9ec823/serde-wasm-bindgen-0.4.5/src/de.rs /Users/harristhai/.cargo/registry/src/github.com-1ecc6299db9ec823/serde-wasm-bindgen-0.4.5/src/error.rs /Users/harristhai/.cargo/registry/src/github.com-1ecc6299db9ec823/serde-wasm-bindgen-0.4.5/src/ser.rs /Users/harristhai/.cargo/registry/src/github.com-1ecc6299db9ec823/serde-wasm-bindgen-0.4.5/src/../README.md
+
+/Users/harristhai/signatory-training/target/debug/deps/serde_wasm_bindgen-25ccb732d3c97ed0.d: /Users/harristhai/.cargo/registry/src/github.com-1ecc6299db9ec823/serde-wasm-bindgen-0.4.5/src/lib.rs /Users/harristhai/.cargo/registry/src/github.com-1ecc6299db9ec823/serde-wasm-bindgen-0.4.5/src/de.rs /Users/harristhai/.cargo/registry/src/github.com-1ecc6299db9ec823/serde-wasm-bindgen-0.4.5/src/error.rs /Users/harristhai/.cargo/registry/src/github.com-1ecc6299db9ec823/serde-wasm-bindgen-0.4.5/src/ser.rs /Users/harristhai/.cargo/registry/src/github.com-1ecc6299db9ec823/serde-wasm-bindgen-0.4.5/src/../README.md
+
+/Users/harristhai/.cargo/registry/src/github.com-1ecc6299db9ec823/serde-wasm-bindgen-0.4.5/src/lib.rs:
+/Users/harristhai/.cargo/registry/src/github.com-1ecc6299db9ec823/serde-wasm-bindgen-0.4.5/src/de.rs:
+/Users/harristhai/.cargo/registry/src/github.com-1ecc6299db9ec823/serde-wasm-bindgen-0.4.5/src/error.rs:
+/Users/harristhai/.cargo/registry/src/github.com-1ecc6299db9ec823/serde-wasm-bindgen-0.4.5/src/ser.rs:
+/Users/harristhai/.cargo/registry/src/github.com-1ecc6299db9ec823/serde-wasm-bindgen-0.4.5/src/../README.md:

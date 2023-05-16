@@ -1,0 +1,11 @@
+/Users/harristhai/signatory-training/target/debug/deps/gloo_file-68540965207e963d.rmeta: /Users/harristhai/.cargo/registry/src/github.com-1ecc6299db9ec823/gloo-file-0.2.3/src/lib.rs /Users/harristhai/.cargo/registry/src/github.com-1ecc6299db9ec823/gloo-file-0.2.3/src/blob.rs /Users/harristhai/.cargo/registry/src/github.com-1ecc6299db9ec823/gloo-file-0.2.3/src/file_list.rs /Users/harristhai/.cargo/registry/src/github.com-1ecc6299db9ec823/gloo-file-0.2.3/src/file_reader.rs /Users/harristhai/.cargo/registry/src/github.com-1ecc6299db9ec823/gloo-file-0.2.3/src/object_url.rs
+
+/Users/harristhai/signatory-training/target/debug/deps/libgloo_file-68540965207e963d.rlib: /Users/harristhai/.cargo/registry/src/github.com-1ecc6299db9ec823/gloo-file-0.2.3/src/lib.rs /Users/harristhai/.cargo/registry/src/github.com-1ecc6299db9ec823/gloo-file-0.2.3/src/blob.rs /Users/harristhai/.cargo/registry/src/github.com-1ecc6299db9ec823/gloo-file-0.2.3/src/file_list.rs /Users/harristhai/.cargo/registry/src/github.com-1ecc6299db9ec823/gloo-file-0.2.3/src/file_reader.rs /Users/harristhai/.cargo/registry/src/github.com-1ecc6299db9ec823/gloo-file-0.2.3/src/object_url.rs
+
+/Users/harristhai/signatory-training/target/debug/deps/gloo_file-68540965207e963d.d: /Users/harristhai/.cargo/registry/src/github.com-1ecc6299db9ec823/gloo-file-0.2.3/src/lib.rs /Users/harristhai/.cargo/registry/src/github.com-1ecc6299db9ec823/gloo-file-0.2.3/src/blob.rs /Users/harristhai/.cargo/registry/src/github.com-1ecc6299db9ec823/gloo-file-0.2.3/src/file_list.rs /Users/harristhai/.cargo/registry/src/github.com-1ecc6299db9ec823/gloo-file-0.2.3/src/file_reader.rs /Users/harristhai/.cargo/registry/src/github.com-1ecc6299db9ec823/gloo-file-0.2.3/src/object_url.rs
+
+/Users/harristhai/.cargo/registry/src/github.com-1ecc6299db9ec823/gloo-file-0.2.3/src/lib.rs:
+/Users/harristhai/.cargo/registry/src/github.com-1ecc6299db9ec823/gloo-file-0.2.3/src/blob.rs:
+/Users/harristhai/.cargo/registry/src/github.com-1ecc6299db9ec823/gloo-file-0.2.3/src/file_list.rs:
+/Users/harristhai/.cargo/registry/src/github.com-1ecc6299db9ec823/gloo-file-0.2.3/src/file_reader.rs:
+/Users/harristhai/.cargo/registry/src/github.com-1ecc6299db9ec823/gloo-file-0.2.3/src/object_url.rs:
