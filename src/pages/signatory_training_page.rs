@@ -19,40 +19,40 @@ use yewdux::prelude::*;
 
 #[function_component(SignatoryTrainingPage)]
 pub fn signatory_training_page() -> Html {
-  let navigator = use_navigator().unwrap();
+    let navigator = use_navigator().unwrap();
 
-  let module_1_button = {
-    let navigator = navigator.clone();
-    let onclick = Callback::from(move |_| navigator.push(&Route::SignatoryTrainingPage2));
+    let module_1_button = {
+        let navigator = navigator.clone();
+        let onclick = Callback::from(move |_| navigator.push(&Route::SignatoryTrainingPage2));
+        html! {
+          <button
+            type="button"
+            class={format!(
+              "w-full py-3 font-semibold rounded-lg outline-none border-none flex justify-center bg-ct-yellow-600"
+            )}
+            {onclick}
+            style="float: right"
+          >
+            {"Next"}
+          </button>
+        }
+    };
+
     html! {
-      <button
-        type="button"
-        class={format!(
-          "w-full py-3 font-semibold rounded-lg outline-none border-none flex justify-center bg-ct-yellow-600"
-        )}
-        {onclick}
-        style="float: right"
-      >
-        {"Module 1"}
-      </button>
+      <>
+        <Header />
+        <section class="bg-ct-blue-600 min-h-screen grid place-items-center">
+            <div class="max-w-4xl min-h-fit mx-auto bg-ct-dark-100 rounded-md h-[20rem] justify-center items-center p-8 space-y-5">
+                <p class="text-3xl font-bold">{"Module 1"}</p>
+                <p class="text-3xl font-semibold">{"Welcome to the LEAD Center"}</p>
+                {"The LEAD (Leadership, Engagement, Advising, & Development) Center is UC Berkeley’s hub for student involvement, leadership development, and co-curricular advising. In this module, you will learn about the LEAD Center and how we can support you as a signatory."}
+                <div class="text-right">
+                  <a href="#">
+                    {module_1_button}
+                  </a>
+                </div>
+            </div>
+        </section>
+      </>
     }
-  };
-
-  html! {
-    <>
-      <Header />
-      <section class="bg-ct-blue-600 min-h-screen grid place-items-center">
-          <div class="max-w-4xl min-h-fit mx-auto bg-ct-dark-100 rounded-md h-[20rem] justify-center items-center p-8 space-y-5">
-              <p class="text-3xl font-bold">{"Module 1"}</p>
-              <p class="text-3xl font-semibold">{"Welcome to the LEAD Center"}</p>
-              {"The LEAD (Leadership, Engagement, Advising, & Development) Center is UC Berkeley’s hub for student involvement, leadership development, and co-curricular advising. In this module, you will learn about the LEAD Center and how we can support you as a signatory."}
-              <div class="text-right">
-                <a href="#">
-                  {next_button}
-                </a>
-              </div>
-          </div>
-      </section>
-    </>
-  }
 }

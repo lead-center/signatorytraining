@@ -19,39 +19,39 @@ use yewdux::prelude::*;
 
 #[function_component(HomePage)]
 pub fn home_page() -> Html {
-  let navigator = use_navigator().unwrap();
+    let navigator = use_navigator().unwrap();
 
-  let login_button = {
-    let navigator = navigator.clone();
-    let onclick = Callback::from(move |_| navigator.push(&Route::LoginPage));
-    html! {
-      <button
-        type="button"
-        class={format!(
-          "w-full py-3 font-semibold rounded-lg outline-none border-none flex justify-center bg-ct-yellow-600"
-        )}
-        {onclick}
-      >
-        {"Login"}
-      </button>
-    }
-  };
+    let login_button = {
+        let navigator = navigator.clone();
+        let onclick = Callback::from(move |_| navigator.push(&Route::LoginPage));
+        html! {
+          <button
+            type="button"
+            class={format!(
+              "w-full py-3 font-semibold rounded-lg outline-none border-none flex justify-center bg-ct-yellow-600"
+            )}
+            {onclick}
+          >
+            {"Login"}
+          </button>
+        }
+    };
 
-  let register_button = {
-    let navigator = navigator.clone();
-    let onclick = Callback::from(move |_| navigator.push(&Route::RegisterPage));
-    html! {
-      <button
-        type="button"
-        class={format!(
-          "w-full py-3 font-semibold rounded-lg outline-none border-none flex justify-center bg-ct-yellow-600"
-        )}
-        {onclick}
-      >
-        {"Register"}
-      </button>
-    }
-  };
+    let register_button = {
+        let navigator = navigator.clone();
+        let onclick = Callback::from(move |_| navigator.push(&Route::RegisterPage));
+        html! {
+          <button
+            type="button"
+            class={format!(
+              "w-full py-3 font-semibold rounded-lg outline-none border-none flex justify-center bg-ct-yellow-600"
+            )}
+            {onclick}
+          >
+            {"Register"}
+          </button>
+        }
+    };
 
     html! {
       <>

@@ -158,34 +158,34 @@ pub fn login_page() -> Html {
         <h1 class="text-4xl xl:text-6xl text-center font-[600] text-ct-yellow-600 mb-4">
           {"Module 1 Quiz"}
         </h1>
-          <form
-            onsubmit={on_submit}
-            class="max-w-md w-full mx-auto overflow-hidden shadow-lg bg-ct-dark-200 rounded-2xl p-8 space-y-5"
-          >
-          <div style="transform: scale(0.65); position: relative; top: -100px;">
-            <h3>{"True or False: RSOs are University-recognized student groups which are separate legal entities from the University."}</h3>
-            <p>{"Choose 1 answer"}</p>
-            <div id="block11" style="padding: 10px;">
-                <label for="option11" style="padding: 5px; font-size: 1rem;">
-                <input type="radio" name="option" value="False" id="option11" style="transform: scale(1.6); margin-right: 10px; vertical-align: middle; margin-top: -2px;" />
-                {"False"}</label>
-                <span id="result11"></span>
-            </div>
-            <div id="block12" style="padding: 10px;">
-                <label for="option12" style="padding: 5px; font-size: 1rem;">
-                <input type="radio" name="option" value="True" id="option12" style="transform: scale(1.6); margin-right: 10px; vertical-align: middle; margin-top: -2px;" />
-                {"True"}</label>
-                <span id="result12"></span>
-            </div>
-          <div>
-          <button type="button" onclick='displayAnswer1() style="width: 100px; height: 40px; border-radius: 3px; background-color: lightblue; font-weight: 700;">Submit</button>
-            <LoadingButton
-              loading={store.page_loading}
-              text_color={Some("text-ct-blue-600".to_string())}
-            >
-              {"Submit"}
-            </LoadingButton>
-          </form>
+        <form
+        onsubmit={on_submit}
+        class="max-w-md w-full mx-auto overflow-hidden shadow-lg bg-ct-dark-200 rounded-2xl p-8 space-y-5"
+        >
+        // <div style="transform: scale(0.65); position: relative; top: -100px;">
+        // <h3>{"True or False: RSOs are University-recognized student groups which are separate legal entities from the University."}</h3>
+        // <p>{"Choose 1 answer"}</p>
+        // <div id="block11" style="padding: 10px;">
+        //     <label for="option11" style="padding: 5px; font-size: 1rem;">
+        //     <input type="radio" name="option" value="False" id="option11" style="transform: scale(1.6); margin-right: 10px; vertical-align: middle; margin-top: -2px;" />
+        //     {"False"}</label>
+        //     <span id="result11"></span>
+        // </div>
+        // <div id="block12" style="padding: 10px;">
+        //     <label for="option12" style="padding: 5px; font-size: 1rem;">
+        //     <input type="radio" name="option" value="True" id="option12" style="transform: scale(1.6); margin-right: 10px; vertical-align: middle; margin-top: -2px;" />
+        //     {"True"}</label>
+        //     <span id="result12"></span>
+        // </div>
+        // <div>
+        // <button type="button" onclick={on_submit} style="width: 100px; height: 40px; border-radius: 3px; background-color: lightblue; font-weight: 700;">{"Submit"}</button>
+        // <LoadingButton
+        //     loading={store.page_loading}
+        //     text_color={Some("text-ct-blue-600".to_string())}
+        // >
+        //     {"Submit"}
+        // </LoadingButton>
+        </form>
       </div>
     </section>
     </>
