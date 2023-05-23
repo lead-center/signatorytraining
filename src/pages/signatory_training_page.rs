@@ -42,7 +42,7 @@ pub fn signatory_training_page() -> Html {
       <>
         <Header />
         <section class="bg-ct-blue-600 min-h-screen grid place-items-center">
-            <div class="max-w-4xl min-h-fit mx-auto bg-ct-dark-100 rounded-md h-[20rem] justify-center items-center p-8 space-y-5">
+            <div class="max-w-4xl min-h-fit mx-auto bg-ct-dark-100 rounded-md  justify-center items-center p-8 space-y-5">
                 <p class="text-3xl font-bold">{"Module 1"}</p>
                 <p class="text-3xl font-semibold">{"Welcome to the LEAD Center"}</p>
                 {"The LEAD (Leadership, Engagement, Advising, & Development) Center is UC Berkeley’s hub for student involvement, leadership development, and co-curricular advising. In this module, you will learn about the LEAD Center and how we can support you as a signatory."}
